@@ -1,0 +1,91 @@
+/* 
+
+.App-link {
+  color: #61dafb;
+  
+}
+*/
+
+.icon {
+  
+  
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .icon {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+.App {
+  margin: auto;
+  background-color: white;
+  border: 5px solid blanchedalmond;
+  
+}
+#root{
+  background-color: black;
+}
+
+*{
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  
+}
+a{
+  text-decoration: none;
+}
+
+.App-header {
+ 
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  
+  
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.zurag{
+  width: 200px;
+  height: 200px;
+}
+
+.tolgoi{
+  border-bottom: solid gray;
+  text-align: center;
+  
+  
+
+  
+
+}
+.first{
+  display: flex;
+  padding-bottom:20px ;
+  
+}
+.text{
+  padding-left: 40px;
+}
+.footerheseg{
+  color: gray;
+  margin-top: 50px;
+  display: flex;
+}

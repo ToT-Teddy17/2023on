@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/day-01/css/style.css">
+    <title>Day01</title>
+</head>
+
+<body>
+    <h1>REACT IS BEGINNING</h1>
+    
+   
+    <hr>
+    <div id="root"></div>
+    <script type="text/babel">
+        function Hello() {
+            return <h1> Hello React</h1>
+        }
+        ReactDOM.render(<Hello />, document.getElementById('root'))
+    </script>
+
+    <p id="second-root"></p>
+    <script type="text/babel">
+        function Text() {
+            return <p>Any text</p>
+        }
+        ReactDOM.render(<Text />, document.getElementById('second-root'))
+    </script>
+
+
+
+    <div id="thrth-root"></div>
+    <script type="text/babel">
+        function Zurag() {
+            return   <img src="https://tse1.mm.bing.net/th?id=OIP.mvbRL_LvQM6nfyRoDGGkzgHaMR&pid=Api&P=0" alt=""></img>
+        }
+        ReactDOM.render(<Zurag />, document.getElementById('thrth-root'))
+    </script>
+
+    <div id="search"></div>
+    <script type="text/babel">
+        function Search(){
+            return <button>click on me</button>
+        }
+        ReactDOM.render(<Search/>,document.getElementById('search'))
+    </script>
+
+
+
+
+
+    <script crossorigin="" src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin="" src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+</body>
+
+</html>
