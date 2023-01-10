@@ -1,3 +1,4 @@
+import Product from "./Product";
 function generateVoteCount() {
 
    
@@ -16,6 +17,7 @@ function generateVoteCount() {
       votes: generateVoteCount(),
       submitterAvatarUrl: 'avatars/daniel.jpg',
       productImageUrl: 'img/image-aqua.png',
+      stars:1
     },
     {
       id: 2,
@@ -25,6 +27,7 @@ function generateVoteCount() {
       votes: generateVoteCount(),
       submitterAvatarUrl: 'avatars/kristy.png',
       productImageUrl: 'img/image-rose.png',
+      stars:1
     },
     {
       id: 3,
@@ -34,6 +37,7 @@ function generateVoteCount() {
       votes: generateVoteCount(),
       submitterAvatarUrl: 'avatars/veronika.jpg',
       productImageUrl: 'img/image-steel.png',
+      stars:1
     },
     {
       id: 4,
@@ -43,6 +47,7 @@ function generateVoteCount() {
       votes: generateVoteCount(),
       submitterAvatarUrl: 'avatars/molly.png',
       productImageUrl: 'img/image-yellow.png',
+      stars:1
     },
     
    ];

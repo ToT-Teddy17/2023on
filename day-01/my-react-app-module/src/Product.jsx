@@ -1,11 +1,19 @@
 import React from "react";
+import products from "./Seed";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+function handleUpVote(){
+  // console.log(props)
+}
 class Product extends React.Component{
     render(){
         return(
             <div className="first" >
             <img className="zurag" src="image-aqua.png"></img>
             <div className="text">
-              <h2>^ <b>44</b></h2>
+              <a onClick={() => {handleUpVote()}}>
+              <i class="fa-solid fa-caret-up">44</i>
+              </a>
               <a href="@">Haught or Naught</a>
               <div>High-minded or absent-minded?You decide</div>
   

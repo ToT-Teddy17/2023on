@@ -43,7 +43,7 @@ function App() {
       <div id='container'>
       {productList}
       <hr></hr>
-      {productList}
+      {/* {productList} */}
         
         {/* <ProductFirst />
 

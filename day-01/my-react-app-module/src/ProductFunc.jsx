@@ -1,4 +1,9 @@
 import products from "./Seed"
+import React, { useState } from 'react'
+import { Rating } from 'react-simple-star-rating'
+function handleUpVote(){
+  // console.log(props)
+}
 
 function ProductFunc(props){
     return(
@@ -7,7 +12,10 @@ function ProductFunc(props){
           <img className="zurag" src={props.productImageUrl} />
             
             <div className="text">
-              <h2>^ <b>44</b></h2>
+            <a onClick={() => {handleUpVote(props)}}>
+              
+              <h2><i class="fa-solid fa-caret-up">44</i></h2>
+              </a>
               <a href="https://github.com/ToT-Teddy17">{props.title}</a>
               <div>High-minded or absent-minded?You decide</div>
   
@@ -16,6 +24,9 @@ function ProductFunc(props){
                 <p>Submitted by:</p><img className="icon" src={props.submitterAvatarUrl}></img>
   
               </div>
+              <Rating 
+              
+              />
   
             </div>
           </div>
