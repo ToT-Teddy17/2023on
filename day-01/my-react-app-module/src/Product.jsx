@@ -1,17 +1,17 @@
 import React from "react";
-import products from "./Seed";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function handleUpVote(){
-  // console.log(props)
-}
-class Product extends React.Component{
-    render(){
+
+function Product(props) {
+    
         return(
+          <div>
             <div className="first" >
+
             <img className="zurag" src="image-aqua.png"></img>
             <div className="text">
-              <a onClick={() => {handleUpVote()}}>
+              <a onClick={() => {}}>
               <i class="fa-solid fa-caret-up">44</i>
               </a>
               <a href="@">Haught or Naught</a>
@@ -22,11 +22,12 @@ class Product extends React.Component{
                 <p>Submitted by:</p><img className="icon" src="unnamed(1).png"></img>
   
               </div>
-  
             </div>
+            </div>
+            
           </div>
         )
-    }
+    
 }
 export default Product;
 
